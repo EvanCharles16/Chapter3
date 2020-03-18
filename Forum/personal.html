@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
 </head>
-<body>
-    
+
+<body style="background-image: url(img/aurora.png); background-repeat: no-repeat;background-size: cover;">
+
+    <h2 style="color: white;">Chapter 3</h2>
+    <hr>
+
+    <h2 style="color: white;">Register Here</h2>
+    <hr>
+
+    <div class="container" style="color: white;">
+        <p><b>1. Personal Information</b></p>
+
+
+        <div style="width: 48%; display: inline-block;">
+            <div>
+                <li><label for="firstname">First Name</label></li>
+                <input type="text" id="firstname">
+            </div>
+
+            <br>
+
+            <div>
+                <li><label for="gender">Gender</label></li>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div style="width: 48%; display: inline-block;">
+            <div>
+                <li><label for="lastname">Last Name</label></li>
+                <input type="text" id="lastname">
+            </div>
+
+            <br>
+
+            <div>
+                <li><label for="birth">Date Of Birth</label></li>
+                <input type="date" id="birth">
+            </div>
+        </div>
+
+        <hr>
+
+        <p><b>2. Contact Information</b></p>
+
+        <div>
+            <div style="width: 48%; display: inline-block;">
+                <form action="" method="POST">
+                    <div>
+                        <li><label for="email">Email</label></li>
+                        <input type="email" id="email">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <li><label for="phone">Telephone</label></li>
+                        <input type="number" id="phone">
+                    </div>
+            </div>
+
+
+            <div style="width: 48%; display: inline-block;">
+                <div>
+                    <li><label for="password">Password</label></li>
+                    <input type="password" id="password">
+                </div>
+
+                <br>
+
+                <div>
+                    <li><label for="mobile">Mobile Phone</label></li>
+                    <input type="number" id="mobile">
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        </form>
+
+    </div>
+
+    <hr>
+
+    <p style="color: white;"><b>3. Interests</b></p>
+
+    <div class="foto" style="color: white;">
+        <li style="margin-bottom: 2%;"><b>Please Choose Your Favourite Pokemon</b></li>
+
+        <div class="size">
+            <img src="img/1.jpeg" style="height: 15% ; width: 15%; margin-left: 5%; margin-right: 6%;">
+            <img src="img/2.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
+            <img src="img/6.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
+            <img src="img/4.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
+            <img src="img/5.jpeg" style="height: 15% ; width: 15%;  margin-left: 5%; margin-right: 6%; margin-top: 4%;">
+            <img src="img/3.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
+            <img src="img/7.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
+            <img src="img/8.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
+        </div>
+
+        <br>
+        <br>
+
+        <form action="#" id="usrform" style=" margin-left: 5%;">
+            Name: <input type="text" name="usrname" style="margin-bottom: 1%;">
+           
+            <br>
+
+            <textarea rows="4" cols="50" name="comment" form="usrform" style="margin-left: 0.2%;">
+            Please Enter your comments here ...</textarea>
+        </form>
+
+        <div class="button" style="margin-left: 26%; margin-top: 5%;">
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </div>
+
+
 </body>
+
 </html>
