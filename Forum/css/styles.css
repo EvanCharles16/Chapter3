@@ -1,0 +1,18 @@
+body{
+    background-image: url(img/aurora.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body .h2{
+    color: white;
+}
+
+.container{
+    color: white;
+}
+
+.container div{
+    width: 48%;
+    display: inline-block;
+}
