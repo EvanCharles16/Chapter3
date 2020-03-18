@@ -1,10 +1,10 @@
 body{
-    background-image: url(img/aurora.png);
+    background-image: url(../img/aurora.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-body .h2{
+body h2{
     color: white;
 }
 
@@ -12,7 +12,31 @@ body .h2{
     color: white;
 }
 
-.container div{
+.container .kiri{
     width: 48%;
     display: inline-block;
+}
+
+.container .kanan{
+    width: 48%;
+    display: inline-block;
+}
+
+.kelas1{
+    width: 48%;
+    display: inline-block;
+}
+
+.kontainer p, .foto{
+    color: white;
+}
+
+.kontainer .foto li{
+    margin-bottom: 2%;
+}
+
+.kontainer .size img{
+    height: 15%;
+    width: 15%;
+    margin-right: 6%;
 }

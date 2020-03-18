@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <h2>Chapter 3</h2>
     <hr>
 
@@ -21,7 +20,7 @@
         <p><b>1. Personal Information</b></p>
 
 
-        <div>
+        <div class="kiri">
             <div>
                 <li><label for="firstname">First Name</label></li>
                 <input type="text" id="firstname">
@@ -40,7 +39,7 @@
         </div>
 
 
-        <div style="width: 48%; display: inline-block;">
+        <div class="kanan">
             <div>
                 <li><label for="lastname">Last Name</label></li>
                 <input type="text" id="lastname">
@@ -58,7 +57,7 @@
 
         <p><b>2. Contact Information</b></p>
 
-        <div>
+        <div class="container2">
             <div style="width: 48%; display: inline-block;">
                 <form action="" method="POST">
                     <div>
@@ -92,48 +91,49 @@
 
         </div>
 
-        
+
         </form>
 
     </div>
 
     <hr>
 
-    <p style="color: white;"><b>3. Interests</b></p>
+    <div class="kontainer">
+        <p><b>3. Interests</b></p>
 
-    <div class="foto" style="color: white;">
-        <li style="margin-bottom: 2%;"><b>Please Choose Your Favourite Pokemon</b></li>
+        <div class="foto">
+            <li><b>Please Choose Your Favourite Pokemon</b></li>
 
-        <div class="size">
-            <img src="img/1.jpeg" style="height: 15% ; width: 15%; margin-left: 5%; margin-right: 6%;">
-            <img src="img/2.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
-            <img src="img/6.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
-            <img src="img/4.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
-            <img src="img/5.jpeg" style="height: 15% ; width: 15%;  margin-left: 5%; margin-right: 6%; margin-top: 4%;">
-            <img src="img/3.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
-            <img src="img/7.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
-            <img src="img/8.jpeg" style="height: 15% ; width: 15%; margin-right: 6%;">
-        </div>
+            <div class="size">
+                <img src="img/1.jpeg" >
+                <img src="img/2.jpeg" >
+                <img src="img/6.jpeg" >
+                <img src="img/4.jpeg" >
+                <img src="img/5.jpeg" style="margin-top: 4%;">
+                <img src="img/3.jpeg" >
+                <img src="img/7.jpeg" >
+                <img src="img/8.jpeg" >
+            </div>
 
-        <br>
-        <br>
-
-        <form action="#" id="usrform" style=" margin-left: 5%;">
-            Name: <input type="text" name="usrname" style="margin-bottom: 1%;">
-           
+            <br>
             <br>
 
-            <textarea rows="4" cols="50" name="comment" form="usrform" style="margin-left: 0.2%;">
+            <form action="#" id="usrform" style=" margin-left: 5%;">
+                Name: <input type="text" name="usrname" style="margin-bottom: 1%;">
+
+                <br>
+
+                <textarea rows="4" cols="50" name="comment" form="usrform" style="margin-left: 0.2%;">
             Please Enter your comments here ...</textarea>
-        </form>
+            </form>
 
-        <div class="button" style="margin-left: 26%; margin-top: 5%;">
-            <button type="submit">Register</button>
-            <button type="reset">Reset</button>
+            <div class="button" style="margin-left: 26%; margin-top: 5%;">
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </div>
+
         </div>
-
     </div>
-
 
 </body>
 
