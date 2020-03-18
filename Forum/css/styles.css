@@ -27,6 +27,11 @@ body h2{
     display: inline-block;
 }
 
+.container2 .forum1 , .forum2{
+    width: 48%;
+    display: inline-block;
+}
+
 .kontainer p, .foto{
     color: white;
 }
@@ -39,4 +44,25 @@ body h2{
     height: 15%;
     width: 15%;
     margin-right: 6%;
+}
+
+.kontainer .size .img-add{
+    margin-top: 4%;
+}
+
+.kontainer .form{
+    margin-bottom: 1%;
+}
+
+.kontainer form{
+    margin-left: 5%;
+}
+
+.kontainer textarea{
+    margin-left: 0.2%;
+}
+
+.kontainer .button{
+    margin-left: 26%; 
+    margin-top: 5%;
 }
